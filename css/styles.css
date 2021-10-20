@@ -1,0 +1,345 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topContainer  {
+	position: absolute;
+	width: 100%;
+	height:58%;
+	transition-property: all;
+}
+
+#topContainer:hover #topTitle {
+	text-shadow: 3px 3px 8px #D7961E;
+}
+#topContainer:hover .buttonTitle {
+    text-shadow: 0px 0px 2px #ffffff;
+}
+
+.imagesBox {
+    position: absolute;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 5px #000000;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#imageBox1 {
+    width: 33%;
+    background-image: url("../images/grecia3.jpg");
+}
+
+#imageBox1:hover {
+	background-image: url("../images/grecia5.jpg");
+	background-position: 55% 0%;
+}
+
+
+#imageBox3 {
+	width: 34%;
+	left: 66%;
+	background-image: url("../images/brc3.jpg");
+}
+
+#imageBox3:hover {
+	background-image: url("../images/brc1.jpg");
+	background-position: 55% 0%;
+}
+
+#imageBox2 {
+    left: 33%;
+    width: 33%;
+    background-image: url("../images/norway2.jpg");	
+}
+
+#imageBox2:hover {
+	background-image: url("../images/norway3.jpg");
+}
+
+#infoBox {
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    height: 35%;
+    background-color: white;
+}
+
+#infoBox:hover #author {
+    color: blue;
+    text-shadow: 1px 0px 4px #8974F3;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-weight: 900;
+    font-size: 200%;
+}
+
+#topTitle {
+    left: 50%;
+    top: 4%;
+    color: white;
+    text-shadow: 3px 3px 8px #000000;
+    transform: translate(-50%,0);
+}
+
+.buttonTitle {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-weight: 900;
+    font-size: 170%;
+    top: 45%;
+    text-align:center;
+    color: white;
+    text-shadow: 3px 3px 8px #000000;
+	transform: translate(-50%,0);
+}
+
+
+#buttonTitleLeft {
+    left: 50%;
+}
+#buttonTitleMiddle {
+	left: 50%;
+	
+}
+#buttonTitleRight {
+	left: 50%;
+}
+
+.button {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    top: 20%;
+    border: medium solid #FFFFFF;
+    transform: translate(-50%,0%);
+    text-shadow: 0px 0px;
+}
+
+#topContainer:hover .button {
+	    box-shadow: 0px 0px 10px #ffffff;
+}
+#buttonLeft {
+    left: 50%;
+}
+
+#buttonMiddle {
+	left: 50%;
+	
+}
+
+#buttonRight {
+	left: 50%;
+}
+
+
+.buttonText {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 60%;
+    color: #FFFFFF;
+    top: 60%;
+    text-shadow: 2px 2px 3px #000000;
+	text-align: center;
+	transform: translate(-50%,0);
+}
+
+#buttonTextLeft {
+	left: 50%;
+}
+
+#buttonTextMiddle {
+	left: 50%;
+}
+
+#buttonTextRight {
+	left: 50%;
+}
+
+#heartImage {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+}
+
+#cupImage {
+	position: absolute;
+	left: 15%;
+	top: 17%;
+	
+}
+
+#likeImage {
+	position: absolute;
+	left: 15%;
+	top: 9%;
+}
+
+#line {
+	background-color: white;
+	position: absolute;
+	width: 70%;
+	height: 1px;
+	left: 15%;
+	top: 80%;
+}
+
+#contactUsBox {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    background-color: #FF8923;
+    top: 88%;
+    left: 50%;
+	transform: translate(-50%,0);
+    border-radius: 100px;
+	transition-property: all;
+	transition-duration: 500ms;
+}
+
+#contactUsBox:hover {
+    box-shadow: inset 0px 0px 7px 0px black;
+}
+
+#contactUsBox:hover #contactUsText {
+    text-shadow: 1px 1px 5px #ffffff;
+    font-weight: 900;
+}
+
+#contactUsText {
+	position:absolute;
+	top: 4px;
+	left: 19px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: smaller;
+	transition-property: all;
+}
+
+#infoTittle {
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%,0);
+	text-align: center;
+}
+
+#quotes {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+	transform: translate(-50%,0);
+    opacity: 0.70;
+}
+#infoBoxText {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    text-align: center;
+    left: 50%;
+	transform: translate(-50%,0);
+    top: 50%;
+    color: #6B6B6B;
+}
+
+#author	{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-weight: 500;
+    color: #FF8923;
+	transition-property: all;
+	transition-duration: 1s;
+}
+
+#contactButtonsBox {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 100px;
+    border: medium solid black;
+    background-color: black;
+}
+
+.contactButton {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition-property: all;
+	transition-duration: 250ms;
+
+}
+
+.contactButton:hover {
+	width: 40px;
+	height: 40px;
+}
+
+#fb {
+    left: 19px;
+}
+
+#insta {
+	left: 59px;
+}
+
+#mail {
+	left: 101px;	
+}
+
+#whats {
+	left: 141px;	
+}
+
+#bottomBox {
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    height: 7%;
+    background-color: black;
+}
+
+#bottomBox2 {
+    left: -100%;
+    position: absolute;
+/*    top: 90%;*/
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 1500ms;
+    background-color: black;
+}
+
+#bottomBox:hover #bottomBox2 {
+    left: 0%;
+    background-color: #00053C;
+    box-shadow: inset 0px 0px 50px 1px black;
+}
+
+#bottomBoxText {
+    position: absolute;
+    widows: 60%;
+    top: 35%;
+    left: 35%;
+    font-family: 'Roboto', sans-serif;
+    color: #CFCFCF;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    font-size: small;
+}
